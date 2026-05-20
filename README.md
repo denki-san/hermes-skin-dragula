@@ -1,40 +1,55 @@
 # 🧛 Hermes Skin: Dracula
 
-A [Dracula](https://draculatheme.com) color theme for [Hermes Agent](https://github.com/NousResearch/hermes-agent).
+为 [Hermes Agent](https://github.com/NousResearch/hermes-agent) 打造的 [Dracula](https://draculatheme.com) 暗色主题皮肤。
 
-## Preview
+## 预览
 
-| Default Skin | Dracula Skin |
+| 默认皮肤 | Dracula 皮肤 |
 |:---:|:---:|
 | ![Default](assets/default-skin.png) | ![Dracula](assets/dracula-skin.png) |
 
-Dark purple and pink tones inspired by the classic Dracula color palette, featuring:
+### 特性
 
-- Dracula Purple (`#bd93f9`) as the primary accent
-- Dracula Pink (`#ff79c6`) for titles and highlights
-- Dracula Comment (`#6272a4`) for borders and dim elements
-- Unicode gothic symbols for spinners and wings
+- 🎨 基于 Dracula 官方色板（Purple / Pink / Cyan / Green / Comment）
+- ✟ 统一 Unicode 哥特风符号（spinner、wings 无 emoji 混用）
+- ⚰ 吸血鬼主题 branding（The Count Decrees / Until the next moonrise...）
+- 🦇 自定义 ASCII banner 和像素 hero art
 
-## Installation
+## 安装
 
-Copy `dracula.yaml` to your Hermes skins directory:
+**1. 复制皮肤文件到 Hermes skins 目录：**
 
 ```bash
 cp dracula.yaml ~/.hermes/skins/
 ```
 
-Then switch to the skin:
+**2. 在 Hermes 中切换皮肤：**
 
 ```
 /skin dracula
 ```
 
-## References
+**3.（可选）设为默认皮肤：**
 
-- **Documentation**: [Hermes Skins Guide](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skins)
-- **Color Palette**: [Dracula Theme](https://github.com/dracula/dracula-theme)
-- **ASCII Art**: [asciiart.website](https://asciiart.website/index.php)
-- **Inspiration**: [joeynyc/hermes-skins](https://github.com/joeynyc/hermes-skins)
+编辑 `~/.hermes/config.yaml`：
+
+```yaml
+display:
+  skin: dracula
+```
+
+## 💡 Tips
+
+- **搭配 Dracula 人格效果更佳！** 在 `~/.hermes/personalities/` 下创建一个 `dracula.yaml`，让你的 Agent 以德古拉伯爵的口吻回答问题——古典、优雅、略带傲慢。
+- **终端配色建议**：搭配 [Dracula for iTerm](https://draculatheme.com/iterm) 或 [Dracula for Terminal.app](https://draculatheme.com/terminal-app) 使用，背景色一致效果最佳。
+- **自定义 tool_emojis**：`tool_emojis` 的 key 取决于你加载的工具名称，可以在 Hermes 启动后看 Available Tools 列表，按实际工具名配置。
+
+## 致谢
+
+- **文档参考**：[Hermes Skins 官方文档](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skins)
+- **配色参考**：[Dracula Theme](https://github.com/dracula/dracula-theme)
+- **ASCII Art 参考**：[asciiart.website](https://asciiart.website/index.php)
+- **灵感启发**：[joeynyc/hermes-skins](https://github.com/joeynyc/hermes-skins)
 
 ## License
 
