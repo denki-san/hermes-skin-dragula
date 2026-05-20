@@ -4,6 +4,10 @@ A [Dracula](https://draculatheme.com) color theme for [Hermes Agent](https://git
 
 ## Preview
 
+| Default Skin | Dracula Skin |
+|:---:|:---:|
+| ![Default](assets/default-skin.png) | ![Dracula](assets/dracula-skin.png) |
+
 Dark purple and pink tones inspired by the classic Dracula color palette, featuring:
 
 - Dracula Purple (`#bd93f9`) as the primary accent
