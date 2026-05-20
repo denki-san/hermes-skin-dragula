@@ -11,7 +11,7 @@
 ### 特性
 
 - 🎨 基于 Dracula 官方色板（Purple / Pink / Cyan / Green / Comment）
-- ✟ 统一 Unicode 哥特风符号（spinner、wings 无 emoji 混用）
+- ✟ 统一 Unicode 哥特风符号
 - ⚰ 吸血鬼主题 branding（The Count Decrees / Until the next moonrise...）
 - 🦇 自定义 ASCII banner 和像素 hero art
 
