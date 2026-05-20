@@ -1,0 +1,106 @@
+name: dracula
+description: "🧛 The Count's sanctuary — an immortal scholar's terminal, steeped in Dracula purple and ancient wisdom"
+
+colors:
+  banner_border: "#6272a4"
+  banner_title: "#ff79c6"
+  banner_accent: "#bd93f9"
+  banner_dim: "#ff79c6"
+  banner_text: "#f8f8f2"
+  ui_accent: "#bd93f9"
+  ui_label: "#50fa7b"
+  ui_ok: "#50fa7b"
+  ui_error: "#ff5555"
+  ui_warn: "#ffb86c"
+  prompt: "#f8f8f2"
+  input_rule: "#6272a4"
+  response_border: "#ff79c6"
+  session_label: "#8be9fd"
+  session_border: "#44475a"
+  status_bar_bg: "#282a36"
+  status_bar_text: "#f8f8f2"
+  status_bar_strong: "#bd93f9"
+  status_bar_dim: "#6272a4"
+  status_bar_good: "#50fa7b"
+  status_bar_warn: "#ffb86c"
+  status_bar_bad: "#ff5555"
+  status_bar_critical: "#ff5555"
+  voice_status_bg: "#282a36"
+  completion_menu_bg: "#282a36"
+  completion_menu_current_bg: "#44475a"
+  completion_menu_meta_bg: "#282a36"
+  completion_menu_meta_current_bg: "#44475a"
+
+spinner:
+  waiting_faces:
+    - "✞"
+    - "✟"
+    - "☾"
+    - "⚰"
+  thinking_faces:
+    - "⚗"
+    - "✞"
+    - "☽"
+    - "⚜"
+  thinking_verbs:
+    - "consulting ancient tomes"
+    - "recalling centuries past"
+    - "decanting wisdom"
+    - "savoring the silence"
+    - "surveying from the tower"
+  wings:
+    - ["☾", "☽"]
+    - ["†", "†"]
+    - ["✟", "✟"]
+
+branding:
+  agent_name: "Dracula Agent"
+  welcome: "🧛🏻 Ah… you've returned. The night is still young."
+  goodbye: "🧛🏻 Until the next moonrise… 🌙"
+  response_label: "🩸 The Count Decrees"
+  prompt_symbol: "🕯️"
+  help_header: "📜 The Count's Grimoire"
+
+tool_prefix: "│"
+tool_emojis:
+  terminal: ⚰️
+  web_search: 🔮
+  file: 📜
+  read_file: 👁️
+  write_file: ✒️
+  code: 🩸
+  think: 🕯️
+  browser_cdp: 🕸️
+  browser_click: 🦷
+  execute_code: ⚗️
+  delegate_task: 🦇
+  default: 🦇
+banner_logo: |
+  [bold #ff79c6]▓█████▄  ██▀███   ▄▄▄       ▄████▄   █    ██  ██▓    ▄▄▄             ▄▄▄        ▄████ ▓█████  ███▄    █ ▄▄▄█████▓
+  ▒██▀ ██▌▓██ ▒ ██▒▒████▄    ▒██▀ ▀█   ██  ▓██▒▓██▒   ▒████▄          ▒████▄     ██▒ ▀█▒▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒
+  ░██   █▌▓██ ░▄█ ▒▒██  ▀█▄  ▒▓█    ▄ ▓██  ▒██░▒██░   ▒██  ▀█▄        ▒██  ▀█▄  ▒██░▄▄▄░▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░
+  ░▓█▄   ▌▒██▀▀█▄  ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓▓█  ░██░▒██░   ░██▄▄▄▄██       ░██▄▄▄▄██ ░▓█  ██▓▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░
+  ░▒████▓ ░██▓ ▒██▒ ▓█   ▓██▒▒ ▓███▀ ░▒▒█████▓ ░██████▒▓█   ▓██▒       ▓█   ▓██▒░▒▓███▀▒░▒████▒▒██░   ▓██░  ▒██▒ ░
+   ▒▒▓  ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ░▒ ▒  ░░▒▓▒ ▒ ▒ ░ ▒░▓  ░▒▒   ▓▒█░       ▒▒   ▓▒█░ ░▒   ▒ ░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░
+   ░ ▒  ▒   ░▒ ░ ▒░  ▒   ▒▒ ░  ░  ▒   ░░▒░ ░ ░ ░ ░ ▒  ░ ▒   ▒▒ ░        ▒   ▒▒ ░  ░   ░  ░ ░  ░░ ░░   ░ ▒░    ░
+   ░ ░  ░   ░░   ░   ░   ▒   ░         ░░░ ░ ░   ░ ░    ░   ▒           ░   ▒   ░ ░   ░    ░      ░   ░ ░   ░
+     ░       ░           ░  ░░ ░         ░         ░  ░     ░  ░            ░  ░      ░    ░  ░         ░
+   ░                         ░[/]
+banner_hero: |
+  [#bd93f9]⠀⣠⣴⣶⠿⠿⣶⣶⣄⡀[/]
+  [#bd93f9]⢠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢴⠄⠀⠀⢠⣾⠟⠉⠀⠀⠀⠀⠈⠻⣿⣄⠀⠀⠀⢴⠄⠀⠀⠀⠀⠀⠀⠀⠀⡀[/]
+  [#bd93f9]⠈⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠇[/]
+  [#bd93f9]⠀⠸⣿⣦⡀⠀⠀⠀⠁⠀⠠⠄⠀⠀⣿⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠄⠀⠀⠁⠀⠀⢀⣴⣾⡟[/]
+  [#bd93f9]⠀⠀⣿⣿⣿⣷⣄⡲⢄⡀⠀⠀⠀⠀⠹⡆⠀⠀⠀⠀⠀⠀⠀⠀⢀⡟⠀⠀⠀⠀⠀⡠⠔⣢⣴⣿⣿⣿⠁[/]
+  [#bd93f9]⠀⠀⣿⣿⣿⣿⣿⣿⣷⠾⠷⢬⣦⡀⠀⠈⠂⠀⠀⠀⠀⠀⠀⠐⠋⠀⠀⣠⣯⠶⠿⣾⣿⣿⣿⣿⣿⣿⡀[/]
+  [#bd93f9]⠀⣸⣿⣿⣭⣽⣶⣶⣶⣶⡶⣪⣷⠀⠀⠀⠀⢸⣷⡀⠀⣴⣧⠀⠀⠀⠀⣸⣏⠲⣶⣶⣶⣶⣮⣭⣿⣿⣧⡀[/]
+  [#bd93f9]⠘⠛⠻⢿⣿⣿⣿⣿⣿⢏⣼⣿⡿⣧⡀⠀⠀⠘⢻⣾⣷⣿⠋⠀⠀⠀⣰⡿⣿⣷⡝⢿⣿⣿⣿⣿⣿⠟⠛⠓[/]
+  [#bd93f9]⠙⣿⣿⣿⣣⣿⣿⣿⢣⣿⣷⣔⢤⣤⣾⣿⣿⣷⣤⡤⣢⣾⣿⡇⣿⣿⣿⣎⢿⣿⣿⠏[/]
+  [#bd93f9]⠘⣿⣷⣿⣿⣿⣿⣞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣿⢿⣿⣿⣯⣿⡇[/]
+  [#bd93f9]⢠⣿⠿⠟⠛⠛⠿⠿⣿⣿⣿⣟⢿⣿⣿⣿⣿⣿⢻⣿⣿⣿⡿⠿⠟⠛⠛⠿⢿⡇[/]
+  [#bd93f9]⠈⠀⣀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣞⣿⣿⣿⣿⣧⣿⠟⠉⠀⠀⠀⠀⠀⠀⢀⠀⠈[/]
+  [#bd93f9]⠂⠀⠀⠐⠀⠀⠀⠙⢿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠐[/]
+  [#bd93f9]⠄⠈⢿⣿⠃⠠[/]
+  [#bd93f9]⢀⠀⠀⠀⠘⡇⠀⠀⠀⡀[/]
+  [#bd93f9]⠙⠁⠀⠁⠀⠀⠈⠀⠈⠋[/]
+  [#bd93f9]⡄[/]
