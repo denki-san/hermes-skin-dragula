@@ -1,37 +1,39 @@
+**English** | [中文](README.zh-CN.md)
+
 # 🧛 Hermes Skin: Dracula
 
-为 [Hermes Agent](https://github.com/NousResearch/hermes-agent) 打造的 [Dracula](https://draculatheme.com) 暗色主题皮肤。
+A [Dracula](https://draculatheme.com) dark theme skin for [Hermes Agent](https://github.com/NousResearch/hermes-agent).
 
-## 预览
+## Preview
 
-| 默认皮肤 | Dracula 皮肤 |
+| Default Skin | Dracula Skin |
 |:---:|:---:|
 | ![Default](assets/default-skin.png) | ![Dracula](assets/dracula-skin.png) |
 
-### 特性
+### Features
 
-- 🎨 基于 Dracula 官方色板（Purple / Pink / Cyan / Green / Comment）
-- ✟ 统一 Unicode 哥特风符号
-- ⚰ 吸血鬼主题 branding（The Count Decrees / Until the next moonrise...）
-- 🦇 自定义 ASCII banner 和像素 hero art
+- 🎨 Built on the official Dracula palette (Purple / Pink / Cyan / Green / Comment)
+- ✟ Consistent Unicode gothic glyphs
+- ⚰ Vampire-themed branding (*The Count Decrees* / *Until the next moonrise...*)
+- 🦇 Custom ASCII banner and pixel hero art
 
-## 安装
+## Installation
 
-**1. 复制皮肤文件到 Hermes skins 目录：**
+**1. Copy the skin file into the Hermes skins directory:**
 
 ```bash
 cp dracula.yaml ~/.hermes/skins/
 ```
 
-**2. 在 Hermes 中切换皮肤：**
+**2. Switch to the skin inside Hermes:**
 
 ```
 /skin dracula
 ```
 
-**3.（可选）设为默认皮肤：**
+**3. (Optional) Set it as the default skin:**
 
-编辑 `~/.hermes/config.yaml`：
+Edit `~/.hermes/config.yaml`:
 
 ```yaml
 display:
@@ -40,16 +42,16 @@ display:
 
 ## 💡 Tips
 
-- **搭配 Dracula 人格效果更佳！** 在 `~/.hermes/personalities/` 下创建一个 `dracula.yaml`，让你的 Agent 以德古拉伯爵的口吻回答问题——古典、优雅、略带傲慢。
-- **终端配色建议**：搭配 [Dracula for iTerm](https://draculatheme.com/iterm) 或 [Dracula for Terminal.app](https://draculatheme.com/terminal-app) 使用，背景色一致效果最佳。
-- **自定义 tool_emojis**：`tool_emojis` 的 key 取决于你加载的工具名称，可以在 Hermes 启动后看 Available Tools 列表，按实际工具名配置。
+- **Pair it with a Dracula personality for the best effect.** Create a `dracula.yaml` under `~/.hermes/personalities/` so your Agent answers in the voice of Count Dracula — classical, elegant, and a touch haughty.
+- **Terminal color suggestion**: combine with [Dracula for iTerm](https://draculatheme.com/iterm) or [Dracula for Terminal.app](https://draculatheme.com/terminal-app); a matching background looks best.
+- **Customize `tool_emojis`**: the `tool_emojis` keys depend on the tool names you load. Check the Available Tools list once Hermes is up and configure them to match the actual names.
 
-## 致谢
+## Credits
 
-- **文档参考**：[Hermes Skins 官方文档](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skins)
-- **配色参考**：[Dracula Theme](https://github.com/dracula/dracula-theme)
-- **ASCII Art 参考**：[asciiart.website](https://asciiart.website/index.php)
-- **灵感启发**：[joeynyc/hermes-skins](https://github.com/joeynyc/hermes-skins)
+- **Docs reference**: [Hermes Skins official docs](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/skins)
+- **Palette reference**: [Dracula Theme](https://github.com/dracula/dracula-theme)
+- **ASCII art reference**: [asciiart.website](https://asciiart.website/index.php)
+- **Inspiration**: [joeynyc/hermes-skins](https://github.com/joeynyc/hermes-skins)
 
 ## License
 
